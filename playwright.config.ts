@@ -29,14 +29,14 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: process.env.BASE_URL,
+    baseURL: process.env.GRESTBASE_URL,
   
     extraHTTPHeaders: {
       // We set this header per GitHub guidelines.
       'Accept': '*/*',
       // Add authorization token to all requests.
       // Assuming personal access token available in the environment.
-      'Authorization': `Bearer ${process.env.TOKEN}`
+      'Authorization': `Bearer ${process.env.GRESTTOKEN}`
     },
 
 
