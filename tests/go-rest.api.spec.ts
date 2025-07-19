@@ -8,7 +8,7 @@ test.describe('GO REST API', () => {
         expect(getUsersList.status()).toEqual(200)
 
         // debugging
-        // console.log (getUsersList.status())    
+        console.log (getUsersList.status())    
         console.log(await getUsersList.json())
         console.log((await getUsersList.json())[1])
     })
