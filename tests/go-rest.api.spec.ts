@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test'
 
 test.describe('GO REST API', () => {
 
-    test('Get list of users - TECH GLOBAL', async ({ request }) => {
+    test('Get list of users', async ({ request }) => {
         const getUsersList = await request.get(``)
         // expect reponse 200
         expect(getUsersList.status()).toEqual(200)
