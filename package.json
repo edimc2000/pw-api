@@ -1,0 +1,25 @@
+{
+  "name": "pw-api",
+  "version": "1.0.0",
+  "description": "\"# pw-api\"",
+  "main": "index.js",
+  "scripts": {
+    "test" : "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edimc2000/pw-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edimc2000/pw-api/issues"
+  },
+  "homepage": "https://github.com/edimc2000/pw-api#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.13",
+    "dotenv": "^17.2.0"
+  }
+}
